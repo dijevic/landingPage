@@ -1,0 +1,58 @@
+@media screen and (min-width:968px){
+    .header{
+        padding-left: 20px;
+        padding-right: 20px;
+        .menu{
+            ul{
+                justify-content: flex-end;
+                li{
+                    a{
+                        font-size: 28px;
+                        transition: 0.2s ease-in-out all;
+                        border-bottom:5px solid transparent ;
+                        line-height: 42px;
+
+                        &:hover{
+                           border-bottom:2px solid #FE5F55 ;
+                           display: inline;
+                           &::first-letter{
+                               color: red;
+                           }
+
+                        }
+                    }
+                }
+                
+            }
+        }
+        .container{
+            h1{
+                
+                font-size: 70px;
+                line-height: 62px;
+            }
+            p{
+                font-size: 25px;
+                line-height: 38px;
+              
+               text-shadow: 15px 15px 50px #000;
+               box-shadow: 2px,2px,50px #000;
+               max-width: 880px;
+
+               
+
+            }
+            .buttom{
+                position: relative;
+                 top: 140px;
+                 margin-top: 0;
+                transition: 0.5s ease all;
+                &:hover{
+                    background: rgba($color: #172A3A, $alpha: 0.9);
+                    color: #FE5F55;
+                    
+                }
+            }
+        }
+    }
+}
